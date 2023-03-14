@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Mark Webber",
+    "messsage": "reacted to your recent post",
+    "titleMessage": "My first tournament today!",
+    "time": "1m ago",
+    "image": "./assets/images/avatar-mark-webber.webp",
+    "feedback": "",
+    "isRead": false,
+    "comment": ""
+  },
+  {
+    "name": "Angela Gray",
+    "messsage": "followed you",
+    "titleMessage": "",
+    "time": "5m ago",
+    "image": "./assets/images/avatar-angela-gray.webp",
+    "feedback": "",
+    "isRead": false,
+    "comment": ""
+  },
+  {
+    "name": "Jacob Thompson",
+    "messsage": "has joined your group",
+    "titleMessage": "Chess Club",
+    "time": "1 day ago",
+    "image": "./assets/images/avatar-jacob-thompson.webp",
+    "feedback": "",
+    "isRead": false,
+    "comment": ""
+  },
+  {
+    "name": "Rizky Hasanuddin",
+    "messsage": "sent you a private message",
+    "titleMessage": "",
+    "time": "5 days ago",
+    "image": "./assets/images/avatar-rizky-hasanuddin.webp",
+    "feedback": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    "isRead": true,
+    "comment": ""
+  },
+  {
+    "name": "Kimberly Smith",
+    "messsage": "commented on your picture",
+    "titleMessage": "",
+    "time": "1 week ago",
+    "image": "./assets/images/avatar-kimberly-smith.webp",
+    "feedback": "",
+    "isRead": true,
+    "comment": "./assets/images/image-chess.webp"
+  },
+  {
+    "name": "Nathan Peterson",
+    "messsage": "reacted to your recent post",
+    "titleMessage": "5 end-game strategies to increase your win rate",
+    "time": "2 weeks ago",
+    "image": "./assets/images/avatar-nathan-peterson.webp",
+    "feedback": "",
+    "isRead": true,
+    "comment": ""
+  },
+  {
+    "name": "Anna Kim ",
+    "messsage": "left the group",
+    "titleMessage": "Chess Club",
+    "time": "2 weeks ago",
+    "image": "./assets/images/avatar-anna-kim.webp",
+    "feedback": "",
+    "isRead": true,
+    "comment": ""
+  }
+]
