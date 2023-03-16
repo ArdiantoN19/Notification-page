@@ -1,9 +1,14 @@
 import users from "../../data.json" assert { type: "json" };
 
 const sectionList = document.querySelector(".section-list");
+const markAsRead = document.querySelector(".all-read");
+const notificationLength = document.querySelector("#notification-length");
 
-function mappingDataUser() {
-  users.forEach((user) => {
+let dataUsers = users;
+console.log(dataUsers);
+
+function mappingDataUser(datas) {
+  datas.forEach((user) => {
     sectionList.innerHTML += `<li class="section-item ${
       user.isRead ? "is-read" : ""
     }">
@@ -39,4 +44,25 @@ function mappingDataUser() {
   });
 }
 
-window.addEventListener("load", mappingDataUser());
+notificationLength.innerText = dataUsers.filter(
+  (data) => data.isRead === false
+).length;
+
+mappingDataUser(dataUsers);
+
+markAsRead.addEventListener("click", function markAllRead() {
+  dataUsers = dataUsers.map((dataUser) => {
+    if (!dataUser.isRead) {
+      return { ...dataUser, isRead: true };
+    }
+    return { ...dataUser };
+  });
+
+  notificationLength.innerText = dataUsers.filter(
+    (data) => data.isRead === false
+  ).length;
+
+  console.log(dataUsers);
+  sectionList.innerHTML = "";
+  mappingDataUser(dataUsers);
+});
